@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/me.jpg';
 import './intro.css';
+import ME from '../../assets/me.jpeg'; // Importar la imagen
 
 const Intro = () => {
   return (
@@ -19,21 +19,19 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1+ year</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>20+ Completed Projects</small>
+              <h5>Proyectos</h5>
+              <small>5+ Proyectos Completos</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
+          <p>Agregar la descripcion</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

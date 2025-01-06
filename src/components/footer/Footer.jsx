@@ -23,9 +23,9 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-      <a href="https://www.linkedin.com/in/meri-gogichashvili/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
-      <a href="https://github.com/Meri-MG" target="_blank" rel="noreferrer" ><FaGithub /></a>
-      <a href="https://angel.co/u/meri-gogichashvili" target="_blank" rel="noreferrer" ><FaAngellist /></a>
+      <a href="" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
+      <a href="" target="_blank" rel="noreferrer" ><FaGithub /></a>
+      <a href="" target="_blank" rel="noreferrer" ><FaAngellist /></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; ET {getYear()}. All rights reserved.</small>
