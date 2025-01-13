@@ -19,7 +19,7 @@ const Footer = () => {
         <li><a href="#experience">Habilidades</a></li>
         <li><a href="#portfolio">Portafolio</a></li>
         <li><a href="#testimonials">Testimonios</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Contacto</a></li>
       </ul>
       <div className="footer__socials">
       <a href="https://www.linkedin.com/in/christopher-pa%C3%BAl-santamaria-m%C3%A1rquez-5b241222b/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
