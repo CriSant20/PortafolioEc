@@ -22,14 +22,13 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      link: 'https://www.linkedin.com/in/yishak-wesego/',
+      link: '',
       name: 'Tamia Maliza',
       test: ''
     }
   ];
   return (
     <section id="testmonials">
-      <h5>Feedback from my peers</h5>
       <h2>Testimonials</h2>
       <Swiper 
         className="container testimonials__container"
