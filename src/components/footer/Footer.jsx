@@ -1,7 +1,6 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
-import { FaAngellist } from 'react-icons/fa'
 import './footer.css';
 
 const Footer = () => {
@@ -13,7 +12,7 @@ const Footer = () => {
   
   return (
     <footer>
-      <a href="#home" className="footer__logo">Meri-MG</a>
+      <a href="#home" className="footer__logo">CriSant20</a>
       <ul className="permalinks">
         <li><a href="#home">Inicio</a></li>
         <li><a href="#about">Acerca de</a></li>
