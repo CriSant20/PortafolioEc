@@ -2,17 +2,20 @@ import React from 'react';
 
 import './portfolio.css';
 
+// Importa las imágenes necesarias
+import gourmetgoImage from '../../assets/gourmetgo.png';
+
 const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Sistema de Gestion de Restaurantes',
+      title: 'GourmetGO',
       description:
-        'Este sistema integral está diseñado para la gestión administrativa de restaurantes. Ofrece una solución web y móvil que permite a los usuarios administrativos manejar todas las operaciones clave del negocio, mientras los usuarios compradores disfrutan de una experiencia optimizada para interactuar con los servicios del restaurante. Con funcionalidades modernas y prácticas, este sistema simplifica la administración y mejora la eficiencia operativa.'
-    ,
+        'Este sistema integral está diseñado para la gestión administrativa de restaurantes.',
       technologies: 'React, Next.js, HTML, TailwindCSS, CSS',
       github: 'https://github.com/PSW-GourtmetGO/GourtmetGo-Web-FrontEnd.git',
-    }
+      img: gourmetgoImage, // Ruta de la imagen importada
+    },
   ];
 
   return (
@@ -39,14 +42,6 @@ const Portfolio = () => {
                 rel="noreferrer"
               >
                 GitHub
-              </a>
-              <a
-                href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
-              >
-                Visit Website
               </a>
             </div>
           </article>

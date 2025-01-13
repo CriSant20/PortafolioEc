@@ -7,8 +7,8 @@ import ME from '../../assets/me.jpeg'; // Importar la imagen
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h5>Para saber</h5>
+      <h2>Acerca de mi</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -27,7 +27,7 @@ const Intro = () => {
             </article>
           </div>
           <p>Agregar la descripcion</p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">Hablemos</a>
         </div>
       </div>
     </section>

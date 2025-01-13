@@ -10,7 +10,7 @@ const Header = () => {
         <h1>Christopher Paúl Santamaria Márquez</h1>
         <h5 className="text-light">Ingeniero de Software | Desarrollador Front-End | Apasionado por la gestión de proyectos y auditorías de procesos</h5>
         <a href="#contact" className="scroll__down">
-          Scroll Down
+          Scroll
         </a>
         <HeaderSocials />
       </div>

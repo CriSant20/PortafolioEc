@@ -5,11 +5,9 @@ footer {
     font-size: 0.9rem;
     margin-top: 7rem;
 }
-
 footer a {
     color: var(--color-bg);
 }
-
 .footer__logo {
     font-size: 2rem;
     font-weight: 500;
@@ -31,7 +29,6 @@ footer a {
     gap: 1rem;
     margin-bottom: 4rem;
 }
-
 .footer__socials a {
     background: var(--color-bg);
     color: var(--color-white);
@@ -40,7 +37,6 @@ footer a {
     display: flex;
     border: 1px solid transparent;
 }
-
 .footer__socials a:hover {
     background: transparent;
     color: var(--color-bg);

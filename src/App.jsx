@@ -7,8 +7,7 @@ import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
-
-
+import Certificados from './components/certificados/Certificados';
 const App = () => {
   return (
     <>
@@ -17,6 +16,7 @@ const App = () => {
       <Intro />
       <Experience />
       <Portfolio />
+      <Certificados/>
       <Testimonials />
       <Contact />
       <Footer />
